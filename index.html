@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant</title>
+	<link href="style.css" rel='stylesheet' style='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Merienda|Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+	<div class='navbar'>
+		<ul class='navigation'>
+			<li><a href='#'>Home</a></li>
+			<li><a href='#menu'>Menu</a></li>
+			<li><a href='#'>Special offers</a></li>
+			<li><a href='#reservation'>Reservation</a></li>
+		
+		</ul>
+	</div>
+	<header class='clearfix'>
+		<div class='container'>
+			<div class='heading'>
+				<h1>Italian restaurant</h1>
+				<p>The best classic italian food and wine!</p>
+			</div>
+		</div>
+	</header>
+	
+	<section>
+		<div class='container'>
+			<div class='card .clearfix'>
+				<div class='about-img'></div>
+				<div class='about'>	
+					<h3>About us</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna dolor, tempus at egestas nec, aliquam eu nisl. Aliquam pellentesque ornare nibh in pretium. Aliquam cursus feugiat justo. Maecenas a pulvinar orci. Maecenas diam urna, mollis id ultrices in, mattis at magna. Nunc nisi nisl, euismod vel neque in, ornare eleifend eros. Nullam sed nibh ullamcorper, semper odio eget, iaculis turpis. Donec condimentum, lorem quis molestie tincidunt, augue dolor rutrum metus, molestie faucibus nisl eros sed eros. Morbi bibendum imperdiet velit id laoreet. 
+					Donec posuere magna quis facilisis tempor. Cras non ex pretium nunc viverra rhoncus.</p>
+				</div>
+			</div>
+		
+			<div class='banner'>
+				<div class='slide slide1'>
+					<div class='text'>
+						<h2>Description</h2>
+					</div>
+				</div>
+				<div class='slide slide2'>
+					<div class='text'>
+						<h2>Home made pasta</h2>
+					</div>
+				</div>
+				<div class='slide slide3'>
+					<div class='text'>
+						<h2>Description</h2>
+					</div>
+				</div>
+			</div>
+			<div class='card'>
+				<div class='ingredience'>
+					<h3>Always 100% fresh ingredience</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut magna dolor, tempus at egestas nec, aliquam eu nisl. Aliquam pellentesque ornare nibh in pretium. Aliquam cursus feugiat justo. Maecenas a pulvinar orci. Maecenas diam urna, mollis id ultrices in, mattis at magna. Nunc nisi nisl, euismod vel neque in, ornare eleifend eros. Nullam sed nibh ullamcorper, semper odio eget, iaculis turpis. Donec condimentum, lorem quis molestie tincidunt, augue dolor rutrum metus, molestie faucibus nisl eros sed eros. Morbi bibendum imperdiet velit id laoreet. </p>
+				</div>
+				<div class='ingredience-img'></div>
+			</div>		
+		</div>
+	</section>
+	
+	<section id='menu'>
+		<div class='container .clearfix'>
+			<div class='food'>
+				<h2>FOOD</h2>
+				<i class="fas fa-utensils menu-icon"></i>
+				<a href='food.html'>View menu</a>
+			</div>
+		</div>
+
+		<div class='container .clearfix'>
+			<div class='drink'>
+				<h2>Drinks</h2>
+				<i class="fas fa-glass-martini-alt menu-icon"></i>
+				<a href='drink.html'>View menu</a>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section>
+		<div class='container'>
+			<div class='info'>
+				<div class='address'>
+					<h2>Where to find us?</h2>
+					<i class="fas fa-map-pin info-icon"></i>
+					<p>17 Quinsburry Road</p>
+					<p>London UK</p>
+					<p>WE6 4IJ</p>
+				</div>
+				<div id='reservation'class='reservation'>
+					<h2>Book a table </h2>
+					<i class="fas fa-phone info-icon"></i>
+					<p>21545232385</p>
+					<p>italianrest@email.com</p>
+					<div  class='book-btn'><p>Book table</p></div>
+				</div>
+				<div class='open'>
+					<h2>Opening hours</h2>
+					<i class="far fa-calendar-alt info-icon"></i>
+					<p>Mon - Thu</p>
+					<p>9:30am - 10pm</p>
+					<p>Fri - Sun</p>
+					<p>12am - 11pm</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class='modal'>
+		<div class='booking'>
+			 <span class="close">&times;</span>
+			<form action='index.html' method='post'>
+				<p>Enter your name</p>
+				<input class='name' type='text' name='name' id='name' placeholder=' Name'>
+				<p>Your phone number</p>
+				<input class='phone' type='text' name='telephone' id='tel' placeholder=' Telephone'>
+				<p>How many persons</p>
+				<select>
+					<option value='1'>1</option>
+					<option value='2'>2</option>
+					<option value='3'>3</option>
+					<option value='4'>4</option>
+					<option value='more'>more</option>
+				</select>
+				<p>Select a date</p>
+				<input class='date-year' type='date' id='date' placeholder=''''>
+				<button id='submit-btn'type='submit' name='submt'>Submit</button>
+			</form>
+		</div>
+	</div>
+	
+	<footer>
+		<div class='footer'>
+				<i class="fab fa-facebook-square soc-media"></i>
+				<i class="fab fa-twitter soc-media"></i>
+				<i class="fab fa-instagram soc-media"></i>
+		</div>
+	</footer>
+
+<script>
+
+	var slides = document.querySelectorAll('.slide');
+	var current = 0;
+	
+	function slider(){
+		for(var i = 0; i < slides.length; i++){
+			slides[i].style.display = 'none';
+		}
+		current++;
+		if(current > slides.length){
+			current = 1;
+		}
+		// current - 1 because last img index is slide[i] - 2
+		slides[current - 1].style.display = 'block';
+		setTimeout(slider, 4000); // every 3second
+		
+	}
+	slider();
+	
+	
+	var modal = document.querySelector('.modal');
+	var bookingBtn = document.querySelector('.book-btn');
+	var closeBtn = document.querySelector('.close');
+	var submitBtn = document.getElementById('submit-btn');
+	var booking = document.querySelector('.booking');
+	var open = false;
+	
+	function bookingForm(){
+		modal.style.display = 'block';
+		open = true;
+	}
+	function submitForm(){
+		modal.style.display = 'none';
+		open = false;
+	}
+	
+	function closeModal(){
+		modal.style.display = 'none';
+		open = false;
+	}
+	
+	submitBtn.addEventListener('click', submitForm);
+	bookingBtn.addEventListener('click', bookingForm);
+	closeBtn.addEventListener('click', closeModal);
+
+</script>
+</body>
+</html>

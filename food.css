@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 3rem;
+	padding: 20px 0 20px 0;
+	border-bottom: 2px solid #F8C471;
+	color:#212F3D;
+}
+
+ul li {
+	list-style: none;
+	padding: 10px;
+	color: #2C3E50;
+	font-family: 'Merienda', cursive;
+}
+/*------------------- MENU STYLING --------------*/
+.container {
+	width: 100%;
+	height:auto;
+	padding-top: 50px;
+	background-image: url(img/booking.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.menu {
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgb(213,158,106, 0.8);
+	text-align: center;
+	border-radius: 4px;
+}
+.menu-list {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.menu-list {
+	font-size: 1.2rem;
+}
+.meal{
+	width: 20%;
+	line-height: 50px;
+	font-size: 1.1rem;
+}
+.description {
+	width: 60%;
+	line-height: 50px;
+	font-size: 0.8rem;
+	color: #566573;
+}
+.price {
+	width: 20%;
+	line-height: 50px;
+}
+.bot {
+	width: 70%;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+}
+.bot a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 0.7rem;
+	text-transform: uppercase;
+	font-family: 'Merienda', cursive;
+}
+.bot a:hover {
+	text-decoration: underline;
+}
+
